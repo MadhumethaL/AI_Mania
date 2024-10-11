@@ -1,0 +1,102 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+
+.dash .bg_left {
+    background-color:#0e5da8;
+    color: white;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); /* Optional shadow for better separation */
+    border-right: 2px solid #ccc; /* Vertical line */
+}
+ 
+.left i {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.left span {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.left ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.left ul li {
+    margin-bottom: 1rem;
+}
+
+.left ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: color 0.3s;
+    margin-left: 20px;
+}
+
+.left ul li a:hover {
+    color: #ddd;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.dash {
+    display: flex;
+    height: 100vh;
+}
+
+.right {
+    flex-grow: 1;
+    padding: 2rem;
+    background-color: #f8f9fa;
+}
+
+.table {
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.table thead {
+    background-color: #343a40;
+    color: white;
+}
+
+.table-hover tbody tr:hover {
+    background-color: #e9ecef;
+}
+
+.bee_icon {
+    font-size: 2rem;
+    margin-right: 0.5rem;
+}
+
+.link {
+    font-size: 1.2rem;
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.link:hover {
+    color: #ddd;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between; /* Align items with space between them */
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.col-md-4 {
+    flex: 0 0 32%; /* Each column takes up about 32% of the width */
+    max-width: 32%; /* Each column takes up about 32% of the width */
+}
